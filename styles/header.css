@@ -1,0 +1,79 @@
+body{
+   background-color: rgba(128, 128, 128, 0.243);
+}
+
+#header-bar{
+   height: 70px;
+}
+
+/* TopBar Section  */
+#header-bar #topbar{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   height: 70px;
+   width: 12%;
+   border-right: 2px solid burlywood;
+}
+
+#header-bar #topbar #logo{
+   font-size: 160%;
+   padding-left: 13px; 
+   padding-top: 12px;
+}
+
+/* Logout Button In header*/
+#header-bar #topbar button{
+   display: block;
+   margin-left: 782%;
+   margin-top: -30px;
+   box-shadow: 1px 2px 2px brown;
+}
+
+#header-bar #topbar button:hover{
+   box-shadow: none;
+}
+
+
+/* Navbar Section  */
+
+#header-bar #navbar{
+   height: 40px;
+}
+
+#header-bar #navbar #navitems{
+   margin-left: 280px;
+}
+
+#header-bar #navbar #navitems li{
+   display: inline-block;
+   padding-right: 40px; 
+   padding-left: 40px;
+   padding-bottom: 11.6px;
+}
+
+#header-bar #navbar #navitems li:hover{
+   background-color: azure;
+   color: grey;
+   cursor: pointer;
+   border-bottom-color: gray;
+}
+
+/*Extra Css Classes*/
+
+#login-user{
+   margin-left: 730%;
+}
+
+#login-user, #logout{
+   margin-top: -15px;
+}
+
+
+a{
+   text-decoration: none;
+}
+body{
+   background-color: rgba(128, 128, 128, 0.243);
+}
+
+
+

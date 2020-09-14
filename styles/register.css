@@ -1,0 +1,102 @@
+#header-bar{
+   height: 70px;
+}
+
+/* TopBar Section  */
+#header-bar #topbar{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   height: 70px;
+   width: 12%;
+   border-right: 2px solid burlywood;
+}
+
+#header-bar #topbar #logo{
+   font-size: 160%;
+   padding-left: 13px; 
+   padding-top: 12px;
+}
+
+/* Body Section  */
+
+body{
+   background-color: rgba(128, 128, 128, 0.243);
+}
+
+#formbar{
+   margin-top: 150px;
+   margin-left: 360px;
+   width: 590px;
+}
+
+#formbar #formhead{
+   height: 44px;
+   padding-left: 20px;
+   padding-top: 8px;
+   font-size: 140%;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   border: 1px solid black;
+}
+
+/*  FormBody Section */
+
+#formbar #formbody{
+   background-color: whitesmoke;
+   height: 800px;
+   padding-top: 60px;
+   border: 1px solid black;
+   border-top: none;
+}
+
+#formbar #formbody #form label{
+   font-size: 120%;
+   font-weight: lighter;
+   color: brown;
+}
+
+#formbar #formbody #form #password{
+   margin-top: 60px;
+}
+
+#formbar #formbody #form input{
+   display: block;
+   padding-left: 30px;
+}
+
+
+#formbar #formbody #form #form-btn{
+  margin-top: 30px;
+  margin-left: 415px;
+  box-shadow: none;
+}
+
+
+
+/* Login Section */
+
+#login{
+   margin-left: 400px;
+   margin-top: 60px;
+   display: inline-block;
+   font-size: 110%;
+   margin-bottom: 30px;
+}
+
+#login #login-btn{
+   margin-left: 20px;
+   display: inline-block;
+   box-shadow: none;
+}
+
+#login #login-btn:hover{
+   cursor: pointer;
+}
+
+
+/* Extra Classes */
+
+.input-error{
+   border: 2px solid red;
+   box-shadow: 1px 0.6px 7px red;
+}
+
+

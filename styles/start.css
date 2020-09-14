@@ -1,0 +1,79 @@
+#header-bar{
+   height: 150px;
+}
+
+/* TopBar Section  */
+#header-bar #topbar{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   height: 150px;
+   width: 12%;
+   border-right: 2px solid burlywood;
+   padding-top: 30px;
+}
+
+#header-bar #topbar #logo{
+   font-size: 280%; 
+   padding-top: 30px;
+   margin-left: 600px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* BodyBar Section */
+
+#bodybar{
+   background-color: rgba(185, 177, 177, 0.5);
+   margin-top: 280px;
+   margin-left: 400px;
+   width: 540px;
+   height: 430px;
+   border-bottom: 13px solid black;
+}
+
+#bodybar #tophead{
+   height: 20px;
+}
+
+
+#bodybar button:hover{
+   box-shadow: none;
+}
+
+#bodybar #login-bar{
+   margin-top: 70px;
+   margin-left: 140px;
+   display: inline-block;
+}
+
+
+#bodybar #or{
+   margin-left: 250px;
+   margin-top: -20px;
+   font-size: 150%;
+}
+
+#bodybar #line1,#line2{
+   width: 200px;
+   height: 2px;
+}
+ 
+#bodybar #line1{
+   margin-top: 110px;
+   margin-left: 25px;
+}
+
+#bodybar #line2{
+   margin-left: 300px;
+   margin-top: -15px;
+}
+
+#bodybar #register-bar{
+    margin-top: 80px;
+    margin-left: 160px;
+}
+
+/* Extra css classes */
+
+a{
+   text-decoration: none;
+}
+
